@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #313a49;
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #313a49; 
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2619,6 +2619,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: right;
 	}
 
 		ul.icons li {
@@ -3311,7 +3312,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: rgba(240, 240, 240, 1.0);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3423,9 +3424,10 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #3c7ec4;
 				color: #ffffff !important;
 				box-shadow: none;
+				font-weight: 500;
 			}
 
 				#main input[type="submit"].primary:hover,
@@ -3702,9 +3704,9 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 3.5em 5em 0em 5em;
 		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		margin: 0 0 0em -1em;
 	}
 
 	#footer input, #footer select, #footer textarea {
@@ -3712,15 +3714,15 @@ input, select, textarea {
 	}
 
 		#footer > * {
-			width: calc(50% - 2em);
+			width: calc(100%);
 			margin-left: 2em;
 		}
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			/* margin: 2.5em 0 2em 0; */
 			font-size: 0.8em;
-			text-align: center;
+			text-align: left;
 		}
 
 		@media screen and (max-width: 1280px) {
