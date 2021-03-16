@@ -38,7 +38,7 @@ ol, ul {
 }
 
 .ul01 {
-	width: 78%;
+	/* width: 80%; */
 	margin: auto;
 	color: #1d1d1f;
 	vertical-align: baseline;
@@ -2436,7 +2436,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		padding-left: 0;
 	}
 
 		ul li {
@@ -2626,7 +2626,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		text-align: right;
+		text-align: center;
 	}
 
 		ul.icons li {
@@ -2636,6 +2636,7 @@ input, select, textarea {
 
 			ul.icons li:last-child {
 				padding-right: 0 !important;
+				padding-top: 0.5em;
 			}
 
 /* Section/Article */
